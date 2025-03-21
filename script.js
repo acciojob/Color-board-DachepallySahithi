@@ -13,7 +13,7 @@ for (let i = 0; i < 800; i++) {
 
     square.addEventListener('mouseout', () => {
         setTimeout(() => {
-            square.style.backgroundColor = '#f0f0f0'; // Reset to default color
-        }, 1000); // 1 second delay
+            square.style.backgroundColor = 'rgb(29, 29, 29)'; // Reset to the correct default color
+        }, 1000);
     });
 }
