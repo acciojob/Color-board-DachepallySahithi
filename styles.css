@@ -12,8 +12,8 @@
 .square {
     width: 20px;
     height: 20px;
-    background-color: #f0f0f0; /* Default color */
-    transition: background-color 1s ease; /* Smooth transition */
+    background-color: rgb(29, 29, 29); /* Change to dark gray */
+    transition: background-color 1s ease;
 }
 
 .square:hover {
