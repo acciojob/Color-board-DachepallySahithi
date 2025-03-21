@@ -1,21 +1,21 @@
 /*  your css code here. If applicable */
 .container {
-            display: grid;
-            grid-template-columns: repeat(40, 20px); /* 40 columns * 20px width = 800px */
-            grid-template-rows: repeat(20, 20px);    /* 20 rows * 20px height = 400px */
-            gap: 1px;
-            width: 800px;
-            height: 400px; /* Adjust height if needed */
-            margin: 50px auto;
-        }
+    display: grid;
+    grid-template-columns: repeat(40, 20px); /* 40 columns * 20px width = 800px */
+    grid-template-rows: repeat(20, 20px);    /* 20 rows * 20px height = 400px */
+    gap: 1px;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+}
 
-        .square {
-            width: 20px;
-            height: 20px;
-            background-color: #f0f0f0; /* Default color */
-            transition: background-color 1s ease; /* Smooth transition */
-        }
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0; /* Default color */
+    transition: background-color 1s ease; /* Smooth transition */
+}
 
-        .square:hover {
-            background-color: #ff0000; /* Change to red on hover */
-        }
+.square:hover {
+    /* Color will be changed by JavaScript */
+}
